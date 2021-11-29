@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,QAAQ,CAAC;EACN,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,MAAM,EAAE,KAAK;CAIa;;AAR7B,AAMG,QANK,CAML,KAAK,CAAC;EACH,cAAc,EAAE,MAAM;EACtB,UAAU,EAAE,MAAM;CAAG",
     "sources": [
         "dark-toggle.component.sass"
     ],

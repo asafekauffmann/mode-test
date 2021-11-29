@@ -3,25 +3,29 @@
    padding: 0
 
    body 
-      --text-color: #222
-      --bkg-color: #fff
-      --btn-txt-color: white
-      --btn-bg-color: rgb(11, 88, 160)
+      --titleColor: #1C1B1B
+      --textColor: #4D5656
+      --bgColor: white
+      --btn-txt-color: #F7F9F9
+      --btn-bg-color: #21618C
 
    body.dark-theme 
-      --text-color: #eee
-      --bkg-color: #252222
-      --btn-txt-color: rgb(46, 43, 43)
-      --btn-bg-color: rgb(20, 211, 195)
+      --titleColor: #F7F9F9
+      --textColor: #B3B6B7 
+      --bgColor: #201E1B
+      --btn-txt-color: #F7F9F9
+      --btn-bg-color: #C0392B
 
 
    body 
-      background: var(--bkg-color)
+      background: var(--bgColor)
 
 
-      h1,
+      h2
+         color: var(--titleColor)
+
       p 
-         color: var(--text-color)
+         color:    var(--textColor)
 
       button 
          padding: 10px
