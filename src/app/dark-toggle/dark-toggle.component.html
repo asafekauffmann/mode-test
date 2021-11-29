@@ -2,12 +2,28 @@
    <div class="card">
       <h2> Hi, im a test</h2>
       <br>
+
       <p>That's a texte content!</p>
       <br>
-   <button (click)="toggleDarkTheme()">
-      Dark mode
-   </button>
-   </div>
+
+      <button (click)="toggleDarkTheme()">
+         Dark mode
+      </button>
    
+      <br>
+      <br>
+      <br>
+      <br>
+      <button (click)="show = !show"></button>
+      <br>
+
+      <div *ngIf="show; else elseBlock">
+         <img src="../../assets/otto-Oficial.png" width="100">
+      </div>
+
+      <ng-template #elseBlock>
+         <img src="../../assets/otto-White.png" width="100">
+      </ng-template>
+   </div>
 </div>
 

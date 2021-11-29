@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DarkToggleComponent implements OnInit {
 
-   darkSwitch = document.getElementById("darkSwitch");
+   show = true;
 
    constructor() { }
 
