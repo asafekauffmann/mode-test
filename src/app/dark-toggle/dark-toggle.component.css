@@ -17,5 +17,9 @@
       -ms-flex-direction: column;
           flex-direction: column;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  display-flex-direction: column;
 }
 /*# sourceMappingURL=dark-toggle.component.css.map */
