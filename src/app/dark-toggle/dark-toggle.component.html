@@ -6,24 +6,17 @@
       <p>That's a texte content!</p>
       <br>
 
-      <button (click)="toggleDarkTheme()">
+      <button (click)="toggleDarkTheme()" (click)="show = !show">
          Dark mode
       </button>
    
-      <br>
-      <br>
-      <br>
-      <br>
-      <button (click)="show = !show"></button>
-      <br>
-
-      <div *ngIf="show; else elseBlock">
-         <img src="../../assets/otto-Oficial.png" width="100">
-      </div>
+      <img *ngIf="show; else elseBlock" src="../../assets/otto-Oficial.png" width="100">
 
       <ng-template #elseBlock>
          <img src="../../assets/otto-White.png" width="100">
       </ng-template>
+
+      
    </div>
 </div>
 
