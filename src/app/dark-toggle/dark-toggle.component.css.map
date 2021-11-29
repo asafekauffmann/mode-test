@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "dark-toggle.component.sass"
+    ],
+    "names": [],
+    "file": "dark-toggle.component.css"
+}
